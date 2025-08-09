@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_1fc968cfd07eba25b0ebdcec36a3a847 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+
+            <style>html, body {
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+            }
+            </style>
+
+            <style>#map {
+                position:absolute;
+                top:0;
+                bottom:0;
+                right:0;
+                left:0;
+                }
+            </style>
+
+            <script>
+                L_NO_TOUCH = false;
+                L_DISABLE_3D = false;
+            </script>
+
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_1fc968cfd07eba25b0ebdcec36a3a847" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_1fc968cfd07eba25b0ebdcec36a3a847 = L.map(
+                "map_1fc968cfd07eba25b0ebdcec36a3a847",
+                {
+                    center: [28.6139, 77.209],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 12,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_1e7dd92c9b77f9d6e23e198aeb756d9d = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_1e7dd92c9b77f9d6e23e198aeb756d9d.addTo(map_1fc968cfd07eba25b0ebdcec36a3a847);
+        
+    
+            var marker_09489de1698b9c6e55f9b41f3b009d02 = L.marker(
+                [28.668328, 77.225017],
+                {
+}
+            ).addTo(map_1fc968cfd07eba25b0ebdcec36a3a847);
+        
+    
+        var popup_20ab4610823fc6998c51f207542be1cd = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_26d006936aeca8f4dedc6f3224e004ec = $(`<div id="html_26d006936aeca8f4dedc6f3224e004ec" style="width: 100.0%; height: 100.0%;">ISBT Nityanand Marg-11764arrivals</div>`)[0];
+                popup_20ab4610823fc6998c51f207542be1cd.setContent(html_26d006936aeca8f4dedc6f3224e004ec);
+            
+        
+
+        marker_09489de1698b9c6e55f9b41f3b009d02.bindPopup(popup_20ab4610823fc6998c51f207542be1cd)
+        ;
+
+        
+    
+    
+            var marker_ea3270d00208dbffe1afdbbabc58fa4b = L.marker(
+                [28.638657, 77.224181],
+                {
+}
+            ).addTo(map_1fc968cfd07eba25b0ebdcec36a3a847);
+        
+    
+        var popup_29d3930b921a269ef8cedfe94c6a4b5e = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_90b020f7cec7f13e96e3fd5779a3351f = $(`<div id="html_90b020f7cec7f13e96e3fd5779a3351f" style="width: 100.0%; height: 100.0%;">Shivaji Park-10403arrivals</div>`)[0];
+                popup_29d3930b921a269ef8cedfe94c6a4b5e.setContent(html_90b020f7cec7f13e96e3fd5779a3351f);
+            
+        
+
+        marker_ea3270d00208dbffe1afdbbabc58fa4b.bindPopup(popup_29d3930b921a269ef8cedfe94c6a4b5e)
+        ;
+
+        
+    
+    
+            var marker_06779b5c1b2f719a5666f6a28ef634e7 = L.marker(
+                [28.6803, 77.094398],
+                {
+}
+            ).addTo(map_1fc968cfd07eba25b0ebdcec36a3a847);
+        
+    
+        var popup_a029ec3da6cc9f5c5fa567580a3b9d9c = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_5a474c1623b9f17454a0af49027a2fe9 = $(`<div id="html_5a474c1623b9f17454a0af49027a2fe9" style="width: 100.0%; height: 100.0%;">Peera Garhi Chowk-9453arrivals</div>`)[0];
+                popup_a029ec3da6cc9f5c5fa567580a3b9d9c.setContent(html_5a474c1623b9f17454a0af49027a2fe9);
+            
+        
+
+        marker_06779b5c1b2f719a5666f6a28ef634e7.bindPopup(popup_a029ec3da6cc9f5c5fa567580a3b9d9c)
+        ;
+
+        
+    
+    
+            var marker_7ab6424476301f229fc4a73801052092 = L.marker(
+                [28.624597, 77.06498],
+                {
+}
+            ).addTo(map_1fc968cfd07eba25b0ebdcec36a3a847);
+        
+    
+        var popup_61da5a4369ba606784dce518afe0c5ba = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_00625eaa5bc3a4b3e519ef054b1db702 = $(`<div id="html_00625eaa5bc3a4b3e519ef054b1db702" style="width: 100.0%; height: 100.0%;">Uttam Nagar Terminal-9008arrivals</div>`)[0];
+                popup_61da5a4369ba606784dce518afe0c5ba.setContent(html_00625eaa5bc3a4b3e519ef054b1db702);
+            
+        
+
+        marker_7ab6424476301f229fc4a73801052092.bindPopup(popup_61da5a4369ba606784dce518afe0c5ba)
+        ;
+
+        
+    
+    
+            var marker_7e58cf9bcd236cb0372c475ae4e49cdd = L.marker(
+                [28.707525, 77.177797],
+                {
+}
+            ).addTo(map_1fc968cfd07eba25b0ebdcec36a3a847);
+        
+    
+        var popup_d2003c1014746140e904a54804337ccc = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_357fbb5de7b13719e2180e59aedc1132 = $(`<div id="html_357fbb5de7b13719e2180e59aedc1132" style="width: 100.0%; height: 100.0%;">Azadpur Terminal-8953arrivals</div>`)[0];
+                popup_d2003c1014746140e904a54804337ccc.setContent(html_357fbb5de7b13719e2180e59aedc1132);
+            
+        
+
+        marker_7e58cf9bcd236cb0372c475ae4e49cdd.bindPopup(popup_d2003c1014746140e904a54804337ccc)
+        ;
+
+        
+    
+    
+            var marker_37914bbf4eac222d4f1b336a01c41d05 = L.marker(
+                [28.6971, 77.1869],
+                {
+}
+            ).addTo(map_1fc968cfd07eba25b0ebdcec36a3a847);
+        
+    
+        var popup_060c3e3791c868a194b26e32538eeb84 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b0c7fc064be572ddc466ebbc90457528 = $(`<div id="html_b0c7fc064be572ddc466ebbc90457528" style="width: 100.0%; height: 100.0%;">Telephone Exchange-8607arrivals</div>`)[0];
+                popup_060c3e3791c868a194b26e32538eeb84.setContent(html_b0c7fc064be572ddc466ebbc90457528);
+            
+        
+
+        marker_37914bbf4eac222d4f1b336a01c41d05.bindPopup(popup_060c3e3791c868a194b26e32538eeb84)
+        ;
+
+        
+    
+    
+            var marker_bff402f32493136091938954e9d835bc = L.marker(
+                [28.569014, 77.216908],
+                {
+}
+            ).addTo(map_1fc968cfd07eba25b0ebdcec36a3a847);
+        
+    
+        var popup_3b7d34effec8b618e784b28f75a3780f = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_3fc864a90a2b89bbef46b672f8c3d6d9 = $(`<div id="html_3fc864a90a2b89bbef46b672f8c3d6d9" style="width: 100.0%; height: 100.0%;">South Extension-8330arrivals</div>`)[0];
+                popup_3b7d34effec8b618e784b28f75a3780f.setContent(html_3fc864a90a2b89bbef46b672f8c3d6d9);
+            
+        
+
+        marker_bff402f32493136091938954e9d835bc.bindPopup(popup_3b7d34effec8b618e784b28f75a3780f)
+        ;
+
+        
+    
+    
+            var marker_6c1c4e4e7f465e85fe488410cae3afa4 = L.marker(
+                [28.62795, 77.25235],
+                {
+}
+            ).addTo(map_1fc968cfd07eba25b0ebdcec36a3a847);
+        
+    
+        var popup_7997c43c12a1b8caa3894ee3c8a57d7e = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f8ecff646c0625da625b8468e57d0a09 = $(`<div id="html_f8ecff646c0625da625b8468e57d0a09" style="width: 100.0%; height: 100.0%;">Delhi Secretariat-8285arrivals</div>`)[0];
+                popup_7997c43c12a1b8caa3894ee3c8a57d7e.setContent(html_f8ecff646c0625da625b8468e57d0a09);
+            
+        
+
+        marker_6c1c4e4e7f465e85fe488410cae3afa4.bindPopup(popup_7997c43c12a1b8caa3894ee3c8a57d7e)
+        ;
+
+        
+    
+    
+            var marker_ad29183cf15560b95c81f116211ba92b = L.marker(
+                [28.6253, 77.2387],
+                {
+}
+            ).addTo(map_1fc968cfd07eba25b0ebdcec36a3a847);
+        
+    
+        var popup_55d3915de0cfd2d1b547bd275c6f8772 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a4ba1fb76ec1a78089d8c0560971f9de = $(`<div id="html_a4ba1fb76ec1a78089d8c0560971f9de" style="width: 100.0%; height: 100.0%;">Tilak Bridge-8220arrivals</div>`)[0];
+                popup_55d3915de0cfd2d1b547bd275c6f8772.setContent(html_a4ba1fb76ec1a78089d8c0560971f9de);
+            
+        
+
+        marker_ad29183cf15560b95c81f116211ba92b.bindPopup(popup_55d3915de0cfd2d1b547bd275c6f8772)
+        ;
+
+        
+    
+    
+            var marker_ce29b488eb77d5c77bb2c3aa9a3c9e50 = L.marker(
+                [28.64195, 77.315817],
+                {
+}
+            ).addTo(map_1fc968cfd07eba25b0ebdcec36a3a847);
+        
+    
+        var popup_68b8e3c8a9098ebc2e6fa6034d8fd5ba = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_79c5f7950946c0a03ba637ba40af26dc = $(`<div id="html_79c5f7950946c0a03ba637ba40af26dc" style="width: 100.0%; height: 100.0%;">Gazipur Depot-8053arrivals</div>`)[0];
+                popup_68b8e3c8a9098ebc2e6fa6034d8fd5ba.setContent(html_79c5f7950946c0a03ba637ba40af26dc);
+            
+        
+
+        marker_ce29b488eb77d5c77bb2c3aa9a3c9e50.bindPopup(popup_68b8e3c8a9098ebc2e6fa6034d8fd5ba)
+        ;
+
+        
+    
+</script>
+</html>
