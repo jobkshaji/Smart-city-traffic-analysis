@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_894c97f2936fc177f8efb503a915c470 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+
+            <style>html, body {
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+            }
+            </style>
+
+            <style>#map {
+                position:absolute;
+                top:0;
+                bottom:0;
+                right:0;
+                left:0;
+                }
+            </style>
+
+            <script>
+                L_NO_TOUCH = false;
+                L_DISABLE_3D = false;
+            </script>
+
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_894c97f2936fc177f8efb503a915c470" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_894c97f2936fc177f8efb503a915c470 = L.map(
+                "map_894c97f2936fc177f8efb503a915c470",
+                {
+                    center: [28.6139, 77.209],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 11,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_0cc0469177be57d2698807b2645f9b3c = L.tileLayer(
+                "https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 20,
+  "maxNativeZoom": 20,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors \u0026copy; \u003ca href=\"https://carto.com/attributions\"\u003eCARTO\u003c/a\u003e",
+  "subdomains": "abcd",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_0cc0469177be57d2698807b2645f9b3c.addTo(map_894c97f2936fc177f8efb503a915c470);
+        
+    
+            var circle_marker_f874648e358ed4aa413bd02e50601394 = L.circleMarker(
+                [28.584, 77.15599999999996],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_894c97f2936fc177f8efb503a915c470);
+        
+    
+        var popup_158d9f0c14adf45bd1f4ffcc8c4f2979 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_d61701edcb94a5844f625df907a12c0a = $(`<div id="html_d61701edcb94a5844f625df907a12c0a" style="width: 100.0%; height: 100.0%;">Location: The Air Force School, Arjan Path, Arjun Vihar, Delhi Cantonment, New Delhi, Delhi, 110010, India Slowdown: 56.0 km/h</div>`)[0];
+                popup_158d9f0c14adf45bd1f4ffcc8c4f2979.setContent(html_d61701edcb94a5844f625df907a12c0a);
+            
+        
+
+        circle_marker_f874648e358ed4aa413bd02e50601394.bindPopup(popup_158d9f0c14adf45bd1f4ffcc8c4f2979)
+        ;
+
+        
+    
+    
+            var circle_marker_7773ce862bfc02e1db92bce258c56138 = L.circleMarker(
+                [28.564, 77.15599999999996],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_894c97f2936fc177f8efb503a915c470);
+        
+    
+        var popup_21f95f1a04fac8a6b0a2041772e016fc = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_0eda0b8e07741526e06547bf58d8ebab = $(`<div id="html_0eda0b8e07741526e06547bf58d8ebab" style="width: 100.0%; height: 100.0%;">Location: Vasant Vihar Club Swimming Pool, Paschimi Marg, Vasant Vihar, New Delhi, Delhi, 110057, India Slowdown: 47.0 km/h</div>`)[0];
+                popup_21f95f1a04fac8a6b0a2041772e016fc.setContent(html_0eda0b8e07741526e06547bf58d8ebab);
+            
+        
+
+        circle_marker_7773ce862bfc02e1db92bce258c56138.bindPopup(popup_21f95f1a04fac8a6b0a2041772e016fc)
+        ;
+
+        
+    
+    
+            var circle_marker_ff8edf3aec0c9cf93867bdf953245081 = L.circleMarker(
+                [28.604, 77.13599999999997],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_894c97f2936fc177f8efb503a915c470);
+        
+    
+        var popup_ad3ef96fae60dbe0c5b684fc2489f4d0 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_e9d29101b830b270391f8e4636833b72 = $(`<div id="html_e9d29101b830b270391f8e4636833b72" style="width: 100.0%; height: 100.0%;">Location: Delhi Cantonment, New Delhi, Delhi, 110046, India Slowdown: 31.0 km/h</div>`)[0];
+                popup_ad3ef96fae60dbe0c5b684fc2489f4d0.setContent(html_e9d29101b830b270391f8e4636833b72);
+            
+        
+
+        circle_marker_ff8edf3aec0c9cf93867bdf953245081.bindPopup(popup_ad3ef96fae60dbe0c5b684fc2489f4d0)
+        ;
+
+        
+    
+    
+            var circle_marker_d4603023cd541f12019678faee498d93 = L.circleMarker(
+                [28.584, 77.13599999999997],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_894c97f2936fc177f8efb503a915c470);
+        
+    
+        var popup_39e354d40ac384e3ff3148130aa00e32 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_c3102eba6ca636958880d3622b6b88bb = $(`<div id="html_c3102eba6ca636958880d3622b6b88bb" style="width: 100.0%; height: 100.0%;">Location: Mount Saint Mary's School, 75, Parade Road, Sannaiyat Lines, Delhi Cantonment, New Delhi, Delhi, 110010, India Slowdown: 31.0 km/h</div>`)[0];
+                popup_39e354d40ac384e3ff3148130aa00e32.setContent(html_c3102eba6ca636958880d3622b6b88bb);
+            
+        
+
+        circle_marker_d4603023cd541f12019678faee498d93.bindPopup(popup_39e354d40ac384e3ff3148130aa00e32)
+        ;
+
+        
+    
+    
+            var circle_marker_4d5d6137c15396f012a95f7babb7c547 = L.circleMarker(
+                [28.604, 77.37599999999992],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_894c97f2936fc177f8efb503a915c470);
+        
+    
+        var popup_5ec330c5e8f71961020f6a7cf5cb0ce8 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_8c61d9801b8b6dbbee2ba826547d6ff8 = $(`<div id="html_8c61d9801b8b6dbbee2ba826547d6ff8" style="width: 100.0%; height: 100.0%;">Location: Sector 66, Mamura, Noida, Dadri, Gautam Buddha Nagar, Uttar Pradesh, 201307, India Slowdown: 25.0 km/h</div>`)[0];
+                popup_5ec330c5e8f71961020f6a7cf5cb0ce8.setContent(html_8c61d9801b8b6dbbee2ba826547d6ff8);
+            
+        
+
+        circle_marker_4d5d6137c15396f012a95f7babb7c547.bindPopup(popup_5ec330c5e8f71961020f6a7cf5cb0ce8)
+        ;
+
+        
+    
+    
+            var circle_marker_bb9f19f25a24fa066ec73c50a68b88cd = L.circleMarker(
+                [28.564, 77.31599999999993],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_894c97f2936fc177f8efb503a915c470);
+        
+    
+        var popup_80bb29b29b18607613b8c757896e25dc = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_7c59bdadb5b1944f6e737b0ac82b2961 = $(`<div id="html_7c59bdadb5b1944f6e737b0ac82b2961" style="width: 100.0%; height: 100.0%;">Location: Dadri Main Road, Sector 18, Noida, Dadri, Gautam Buddha Nagar, Uttar Pradesh, 201313, India Slowdown: 24.0 km/h</div>`)[0];
+                popup_80bb29b29b18607613b8c757896e25dc.setContent(html_7c59bdadb5b1944f6e737b0ac82b2961);
+            
+        
+
+        circle_marker_bb9f19f25a24fa066ec73c50a68b88cd.bindPopup(popup_80bb29b29b18607613b8c757896e25dc)
+        ;
+
+        
+    
+    
+            var circle_marker_5c455b6e64530913a7d66bdbaddb14e9 = L.circleMarker(
+                [28.604, 77.15599999999996],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_894c97f2936fc177f8efb503a915c470);
+        
+    
+        var popup_4564f5fc64650d3988446b781086c4e9 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_7858c56540a6b334d9f7d8ac86d8bd8d = $(`<div id="html_7858c56540a6b334d9f7d8ac86d8bd8d" style="width: 100.0%; height: 100.0%;">Location: Mahatma Gandhi Marg, Dhaula Kuan, Delhi Cantonment, New Delhi, Delhi, 110028, India Slowdown: 22.0 km/h</div>`)[0];
+                popup_4564f5fc64650d3988446b781086c4e9.setContent(html_7858c56540a6b334d9f7d8ac86d8bd8d);
+            
+        
+
+        circle_marker_5c455b6e64530913a7d66bdbaddb14e9.bindPopup(popup_4564f5fc64650d3988446b781086c4e9)
+        ;
+
+        
+    
+    
+            var circle_marker_a50d5593b38aaf781477ba9ad7a838fe = L.circleMarker(
+                [28.404, 77.31599999999993],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_894c97f2936fc177f8efb503a915c470);
+        
+    
+        var popup_7a8bc5b4f76001d3bc0d9fc278d7b738 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_6db5d6fe2cb5c155a483820de97ec733 = $(`<div id="html_6db5d6fe2cb5c155a483820de97ec733" style="width: 100.0%; height: 100.0%;">Location: Sector - 16 A Rd, Sector 16A, Old Faridabad, Faridabad, Haryana, 121001, India Slowdown: 21.0 km/h</div>`)[0];
+                popup_7a8bc5b4f76001d3bc0d9fc278d7b738.setContent(html_6db5d6fe2cb5c155a483820de97ec733);
+            
+        
+
+        circle_marker_a50d5593b38aaf781477ba9ad7a838fe.bindPopup(popup_7a8bc5b4f76001d3bc0d9fc278d7b738)
+        ;
+
+        
+    
+    
+            var circle_marker_50fc3151c5d48d546cfa9cb57e36f230 = L.circleMarker(
+                [28.584, 77.11599999999997],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_894c97f2936fc177f8efb503a915c470);
+        
+    
+        var popup_ac587ad4ded7fcd54d74ab961e8c08e1 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_4abaa371bf67cd0e4bf3d7712d5f0092 = $(`<div id="html_4abaa371bf67cd0e4bf3d7712d5f0092" style="width: 100.0%; height: 100.0%;">Location: Shumran Lines, Delhi Cantonment, New Delhi, Delhi, 110010, India Slowdown: 18.0 km/h</div>`)[0];
+                popup_ac587ad4ded7fcd54d74ab961e8c08e1.setContent(html_4abaa371bf67cd0e4bf3d7712d5f0092);
+            
+        
+
+        circle_marker_50fc3151c5d48d546cfa9cb57e36f230.bindPopup(popup_ac587ad4ded7fcd54d74ab961e8c08e1)
+        ;
+
+        
+    
+    
+            var circle_marker_7f320d3b6eeebc7eade1409168996b6e = L.circleMarker(
+                [28.544, 77.19599999999996],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_894c97f2936fc177f8efb503a915c470);
+        
+    
+        var popup_ace9463059b46ca07c7dc43005a1d347 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_8fa395c00941ecbdb44d472480d9960a = $(`<div id="html_8fa395c00941ecbdb44d472480d9960a" style="width: 100.0%; height: 100.0%;">Location: Kailash, Central Avenue, Hauz Khas Enclave, Hauz Khas, Hauz Khas Tehsil, South Delhi, Delhi, 110016, India Slowdown: 17.0 km/h</div>`)[0];
+                popup_ace9463059b46ca07c7dc43005a1d347.setContent(html_8fa395c00941ecbdb44d472480d9960a);
+            
+        
+
+        circle_marker_7f320d3b6eeebc7eade1409168996b6e.bindPopup(popup_ace9463059b46ca07c7dc43005a1d347)
+        ;
+
+        
+    
+</script>
+</html>
