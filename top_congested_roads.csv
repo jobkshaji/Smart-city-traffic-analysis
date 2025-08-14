@@ -1,0 +1,11 @@
+lat,lon,currentSpeed,freeFlowSpeed,currentTravelTime,freeFlowTravelTime,confidence,slowdown,location_name
+28.584,77.15599999999996,2,58,3571,123,1.0,56,"The Air Force School, Arjan Path, Arjun Vihar, Delhi Cantonment, New Delhi, Delhi, 110010, India"
+28.564,77.15599999999996,6,53,1585,179,0.98,47,"Vasant Vihar Club Swimming Pool, Paschimi Marg, Vasant Vihar, New Delhi, Delhi, 110057, India"
+28.604,77.13599999999997,8,39,2033,417,0.979143,31,"Delhi Cantonment, New Delhi, Delhi, 110046, India"
+28.584,77.13599999999997,8,39,2033,417,0.979143,31,"Mount Saint Mary's School, 75, Parade Road, Sannaiyat Lines, Delhi Cantonment, New Delhi, Delhi, 110010, India"
+28.604,77.37599999999992,10,35,143,41,1.0,25,"Sector 66, Mamura, Noida, Dadri, Gautam Buddha Nagar, Uttar Pradesh, 201307, India"
+28.564,77.31599999999993,26,50,179,93,1.0,24,"Dadri Main Road, Sector 18, Noida, Dadri, Gautam Buddha Nagar, Uttar Pradesh, 201313, India"
+28.604,77.15599999999996,28,50,209,117,1.0,22,"Mahatma Gandhi Marg, Dhaula Kuan, Delhi Cantonment, New Delhi, Delhi, 110028, India"
+28.404,77.31599999999993,12,33,1008,366,0.960338,21,"Sector - 16 A Rd, Sector 16A, Old Faridabad, Faridabad, Haryana, 121001, India"
+28.584,77.11599999999997,20,38,809,425,1.0,18,"Shumran Lines, Delhi Cantonment, New Delhi, Delhi, 110010, India"
+28.544,77.19599999999996,27,44,2081,1277,0.998237,17,"Kailash, Central Avenue, Hauz Khas Enclave, Hauz Khas, Hauz Khas Tehsil, South Delhi, Delhi, 110016, India"
